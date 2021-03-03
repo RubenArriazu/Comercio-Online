@@ -10,19 +10,19 @@ create table cliente (
 	direccion varchar(60),
 	email varchar(80),
 	tlfn varchar(12)
-)engine=InnoDB;
+) engine=InnoDB;
 
 create table vendedor (
 	id_vendedor int(3) not null auto_increment primary key,
 	nombre varchar(30),
 	direccion varchar(60)
-)engine=InnoDB;
+) engine=InnoDB;
 
 create table categoria (
 	id_categoria int(3) not null auto_increment primary key,
 	nombre varchar(30),
 	descripcion varchar(60)
-)engine=InnoDB;
+) engine=InnoDB;
 
 create table producto (
 	id_producto int(3) not null auto_increment primary key,
@@ -34,7 +34,7 @@ create table producto (
 	id_categoria int(3),
 	constraint producto_FK foreign key (id_vendedor) references vendedor(id_vendedor),
 	constraint producto_FK2 foreign key (id_categoria) references categoria(id_categoria)
-)engine=InnoDB;
+) engine=InnoDB;
 
 create table pedido (
 	id_pedido int(2) not null auto_increment primary key,
@@ -46,4 +46,4 @@ create table pedido (
 	id_producto int(3),
 	constraint pedido_FK foreign key (dni_cliente) references cliente(dni),
 	constraint pedido_FK2 foreign key (id_producto) references producto(id_producto)
-)engine=InnoDB;
+) engine=InnoDB;
