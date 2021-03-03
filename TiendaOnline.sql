@@ -38,9 +38,7 @@ create table producto (
 
 create table pedido (
 	id_pedido int(2) not null auto_increment primary key,
-	nombre varchar(14),
 	fecha datetime,
-	total int(7),
 	cantidad int(7),
 	dni_cliente varchar(9),
 	id_producto int(3),
