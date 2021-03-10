@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Ejecuta en el contenedor los parametros que se pasan en este programa
+docker exec -i --workdir /db-contenedor comercio-online ${@}

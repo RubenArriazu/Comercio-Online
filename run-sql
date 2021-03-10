@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Ejecuta un script de SQL
+./contenedor mysql -u root -v -v -v < ${1}
