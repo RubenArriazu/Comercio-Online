@@ -28,3 +28,31 @@ where producto.id_producto=pedido.id_producto group by pedido.id_producto order 
 select producto.precio from producto
 where producto.precio = (select max(producto.precio) from producto) 
 or producto.precio = (select min(producto.precio) from producto);
+
+-- Mostrar el nombre y apellidos de los 10 clientes que más compras han realizado
+-- Mostrar tambien el total de las compras
+select cliente.nombre, cliente.apellidos, sum(pedido.cantidad) as total 
+from cliente , pedido
+where cliente.dni = pedido.dni_cliente
+group by pedido.dni_cliente order by total desc
+limit 10;
+
+-- Mostrar telefono de los clientes que compraron en el mes de Abril
+select distinct cliente.nombre, cliente.tlfn, pedido.fecha from cliente, pedido where cliente.dni = pedido.dni_cliente
+and month(pedido.fecha)=04;
+
+-- Mostrar los distintas categorias que hay en la tienda online
+select categoria.nombre from categoria group by categoria.nombre;
+
+-- Mostrar la media de ventas por mes en el primer semestre del año 2020 
+select truncate(avg(total),2) as total_ventas, month(fecha)
+as mes from pedido
+where fecha between '2020-01-01' and '2020-06-30' group by 2 order by 2 asc;
+
+-- Mostrar el nombre y apellidos de los 4 primeros clientes que menos compras han realizado 
+-- y tambien el total de dichas compras 
+select cliente.nombre, cliente.apellidos, sum(pedido.total) as Total 
+from cliente , pedido
+where cliente.dni = pedido.dni_cliente
+group by pedido.dni_ order by Total asc
+limit 4;

@@ -1,3 +1,5 @@
+use TiendaOnline;
+
 insert into producto (nombre, precio, stock, id_vendedor, id_categoria)
 values
 	("Platano", 2.6, 100, 8, 1),
@@ -40,9 +42,9 @@ values
     ("Mascarilla capilar", 9, 98, 26, 6),
 	("Mascarilla capilar", 10, 189, 41, 6),
     
-    ("Encimera de madera maciza", 90, 89, 42, 7),
+    ("Encimera de madera", 90, 89, 42, 7),
 	("Cinta métrica", 5, 304, 31, 7),
-    ("Pintura 15L (distintos colores)", 21, 435, 13, 7),
+    ("Pintura 15L", 21, 435, 13, 7),
     ("Taladro con cable", 49, 120, 13, 7),
 	("Taladro con cable", 57, 156, 31, 7),
     ("Taladro sin cable", 148, 210, 13, 7),

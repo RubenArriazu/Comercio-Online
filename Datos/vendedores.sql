@@ -1,3 +1,5 @@
+use TiendaOnline;
+
 INSERT INTO vendedor (nombre,direccion)
 VALUES
 	("Belle Buckley","564-3460 Eget Av."),
@@ -64,4 +66,4 @@ VALUES
 	("Uriel Olsen","6552 Cursus Avenida"),
 	("Lars Rose","Apdo.:603-1945 Facilisis Carretera"),
 	("Morgan Boyer","Apdo.:207-1986 Ipsum Avda."),
-	("Carissa Hurley","Apartado núm.: 654, 6436 Justo Av."),
+	("Carissa Hurley","Apartado núm.: 654, 6436 Justo Av.");

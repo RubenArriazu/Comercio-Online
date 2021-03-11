@@ -1,3 +1,5 @@
+use TiendaOnline;
+
 INSERT INTO cliente (dni,Nombre,apellidos,direccion,email,tlfn)
 VALUES
 	("74649564P","Shay","Perez Carroll","Apdo.:518-6864 Risus. Avda.","Donec.est@semutcursus.net","632 032 543"),

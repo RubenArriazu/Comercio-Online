@@ -1,3 +1,5 @@
+use TiendaOnline;
+
 insert into categoria (nombre, descripcion)
 values
 	("Frutas", "Fruta de temporada"),

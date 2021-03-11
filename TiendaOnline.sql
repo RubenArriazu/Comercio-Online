@@ -26,8 +26,7 @@ create table categoria (
 
 create table producto (
 	id_producto int(3) not null auto_increment primary key,
-	nombre varchar(14),
-	descripcion varchar(40),
+	nombre varchar(35),
 	precio int(14),
 	stock int(7),
 	id_vendedor int(3),
