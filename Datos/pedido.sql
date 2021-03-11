@@ -1,7 +1,7 @@
 use TiendaOnline;
 
-INSERT INTO pedido (fecha, cantidad, dni_cliente, id_producto)
-VALUES
+insert into pedido (fecha, cantidad, dni_cliente, id_producto)
+values
 	('2021-1-2', 2, '97495889C', 33),
 	('2020-1-3', 3, '74649564P', 23),
 	('2020-2-1', 8, '97487998M', 52),

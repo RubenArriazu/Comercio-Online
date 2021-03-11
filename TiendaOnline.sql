@@ -1,4 +1,4 @@
-drop database TiendaOnline;
+-- drop database TiendaOnline;
 create database TiendaOnline
 default character set utf8 collate utf8_unicode_ci;
 use TiendaOnline;
@@ -27,7 +27,7 @@ create table categoria (
 create table producto (
 	id_producto int(3) not null auto_increment primary key,
 	nombre varchar(35),
-	precio int(14),
+	precio float(9,2),
 	stock int(7),
 	id_vendedor int(3),
 	id_categoria int(3),
