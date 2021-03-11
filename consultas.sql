@@ -10,7 +10,7 @@ group by vendedor.id_vendedor order by TOTAL desc;
 -- Mostrar cuántos vendedores existen en cada categoria  ordenada por el número de vendedores descendentemente 
 -- select categoria.nombre as categoria, count(vendedor.id_vendedor) as total_vendedores
 select categoria.nombre as categoria, count(distinct vendedor.id_vendedor) as total_vendedores
-from vendedor, categoria, producto 
+from vendedor, categoria, producto
 where producto.id_vendedor = vendedor.id_vendedor and producto.id_categoria=categoria.id_categoria
 group by categoria.id_categoria
 order by total_vendedores desc;

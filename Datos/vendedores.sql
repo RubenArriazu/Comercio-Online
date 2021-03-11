@@ -1,7 +1,7 @@
 use TiendaOnline;
 
-INSERT INTO vendedor (nombre,direccion)
-VALUES
+insert into vendedor (nombre,direccion)
+values
 	("Belle Buckley","564-3460 Eget Av."),
 	("Mari Cannon","Apartado núm.: 509, 9542 Arcu. Ctra."),
 	("Cameron Schneider","8953 Inceptos Avenida"),

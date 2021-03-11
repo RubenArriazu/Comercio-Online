@@ -31,34 +31,34 @@ values
 	("Jerez", 16, 80, 19, 4),
 
 	("Agua mineral 1L", 0.65, 400, 29, 5),
-    ("Agua mineral 500ml", 0.38, 500, 29, 5),
+	("Agua mineral 500ml", 0.38, 500, 29, 5),
 	("Fanta limon", 0.9, 200, 28, 5),
 	("Fanta naranja", 0.9, 300, 28, 5),
 	("Bifrutas", 0.8, 150, 27, 5),
-    
-    ("Sérum facial", 12, 140, 25, 6),
-    ("Máscara de pestañas", 8, 178, 30, 6),
-    ("Sérum facial", 14, 120, 26, 6),
-    ("Mascarilla capilar", 9, 98, 26, 6),
+	
+	("Sérum facial", 12, 140, 25, 6),
+	("Máscara de pestañas", 8, 178, 30, 6),
+	("Sérum facial", 14, 120, 26, 6),
+	("Mascarilla capilar", 9, 98, 26, 6),
 	("Mascarilla capilar", 10, 189, 41, 6),
-    
-    ("Encimera de madera", 90, 89, 42, 7),
+	
+	("Encimera de madera", 90, 89, 42, 7),
 	("Cinta métrica", 5, 304, 31, 7),
-    ("Pintura 15L", 21, 435, 13, 7),
-    ("Taladro con cable", 49, 120, 13, 7),
+	("Pintura 15L", 21, 435, 13, 7),
+	("Taladro con cable", 49, 120, 13, 7),
 	("Taladro con cable", 57, 156, 31, 7),
-    ("Taladro sin cable", 148, 210, 13, 7),
-    
-    ("Lapiz", 0.1, 1540, 16, 8),
-    ("Sacapuntas", 0.22, 1232, 16, 8),
-    ("Portamina", 4, 465, 16, 8),
-    ("Cuaderno", 1.28, 623, 16, 8),
-    ("Estuche", 14, 576, 16, 8),
-    ("Gomas de borrar (pack de 4)", 1.12, 1352, 16, 8),
-    
-    ("Televisor", 410, 102, 17, 9),
-    ("Teléfono", 314, 192, 18, 9),
-    ("Ordenador", 652, 106, 18, 9),
+	("Taladro sin cable", 148, 210, 13, 7),
+	
+	("Lapiz", 0.1, 1540, 16, 8),
+	("Sacapuntas", 0.22, 1232, 16, 8),
+	("Portamina", 4, 465, 16, 8),
+	("Cuaderno", 1.28, 623, 16, 8),
+	("Estuche", 14, 576, 16, 8),
+	("Gomas de borrar (pack de 4)", 1.12, 1352, 16, 8),
+	
+	("Televisor", 410, 102, 17, 9),
+	("Teléfono", 314, 192, 18, 9),
+	("Ordenador", 652, 106, 18, 9),
 	("Ordenador", 521, 96, 17, 9),
-    ("Ordenador", 436, 195, 23, 9),
-    ("Ratón", 14, 564, 18, 9);
+	("Ordenador", 436, 195, 23, 9),
+	("Ratón", 14, 564, 18, 9);
